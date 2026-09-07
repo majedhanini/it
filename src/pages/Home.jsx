@@ -7,21 +7,6 @@ function Home({ navigate }) {
       {/* HERO */}
       <section className="hero">
         <div className="container hero-container">
-          <div className="hero-shabiba">
-            <div className="hero-shabiba-logo-wrap">
-              <img
-                src="/shabiba-logo.png"
-                alt="شعار حركة الشبيبة الطلابية"
-                className="hero-shabiba-logo"
-              />
-            </div>
-
-            <div className="hero-shabiba-text">
-              <strong>حركة الشبيبة الطلابية</strong>
-              <span>SHABIBA STUDENT MOVEMENT</span>
-            </div>
-          </div>
-
           <span className="hero-kicker">
             FACULTY OF INFORMATION TECHNOLOGY & AI
           </span>
@@ -35,15 +20,6 @@ function Home({ navigate }) {
             مكان واحد يجمع جروبات طلبة الكلية، جروبات دفعة 126، وجروبات المساقات
             لجميع الدفعات والتخصصات.
           </p>
-
-          <div className="hero-note">
-            <span className="hero-note-dot"></span>
-
-            <p>
-              جروبات الدفعة مخصصة لدفعة 126، بينما جروبات المساقات متاحة لجميع
-              طلبة الكلية.
-            </p>
-          </div>
 
           <div className="hero-actions">
             <button
