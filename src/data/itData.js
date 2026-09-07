@@ -1,0 +1,372 @@
+const itData = {
+  facultyGroups: {
+    whatsapp: {
+      name: "كلية تكنولوجيا المعلومات والذكاء الاصطناعي - 26",
+      url: "https://chat.whatsapp.com/FEb9HjKoFDRES2gAloAUb6?s=cl&p=i&mlu=4",
+    },
+
+    facebook: {
+      name: "تجمع كلية تكنولوجيا المعلومات والذكاء الاصطناعي",
+      url: "https://www.facebook.com/share/g/1B4CSZKozq/?mibextid=wwXIfr",
+    },
+  },
+
+  majors: [
+    // =====================================================
+    // CAP
+    // علم حاسوب في سوق العمل
+    // =====================================================
+
+    {
+      id: "cap",
+      name: "علم حاسوب في سوق العمل (CAP)",
+      englishName: "Computer Science Apprenticeship Program",
+
+      batchGroup:
+        "https://chat.whatsapp.com/DrZpOeh3bp63Ht3mZqnqRe?s=cl&p=i&mlu=4",
+
+      courses: [
+        // =================================================
+        // BASIC / CORE COURSES
+        // =================================================
+
+        {
+          id: "programming-1",
+          name: "مبادئ برمجة ١",
+          englishName: "Programming Principles 1",
+          url: "https://chat.whatsapp.com/JsYGvtt1if6AVC4hR4Y2LB?mode=gi_t",
+          category: "core",
+        },
+
+        {
+          id: "programming-2",
+          name: "مبادئ برمجة ٢",
+          englishName: "Programming Principles 2",
+          url: "https://chat.whatsapp.com/GDh3uqXRUrSFCFeuP7Thik?mode=gi_t",
+          category: "core",
+        },
+
+        {
+          id: "general-physics-it",
+          name: "فيزياء عامة لطلبة تكنولوجيا المعلومات",
+          englishName: "General Physics for IT Students",
+          url: "https://chat.whatsapp.com/FeuxKBmIixtEANFLOQkKR6?mode=gi_t",
+          category: "core",
+        },
+
+        {
+          id: "discrete-mathematics",
+          name: "الرياضيات المنفصلة",
+          englishName: "Discrete Mathematics",
+          url: "https://chat.whatsapp.com/BR1bQRYqHhA1s5w9qXHxaM?mode=gi_t",
+          category: "core",
+        },
+
+        {
+          id: "probability-theory",
+          name: "مقدمة في نظرية الاحتمالات",
+          englishName: "Introduction to Probability Theory",
+          url: "https://chat.whatsapp.com/JDhWgsgDpZKJmUtimYhQtl?mode=gi_t",
+          category: "core",
+        },
+
+        {
+          id: "computer-architecture",
+          name: "أساسيات هيكلية الحاسوب",
+          englishName: "Computer Architecture Fundamentals",
+          url: "https://chat.whatsapp.com/BNQSkUTPCDq28gw5KXuyrT?mode=gi_t",
+          category: "core",
+        },
+
+        {
+          id: "theory-of-computation",
+          name: "نظرية الحسابات",
+          englishName: "Theory of Computation",
+          url: "https://chat.whatsapp.com/DQ9IdUHNBfmB9mc2P9QJOR?mode=gi_t",
+          category: "core",
+        },
+
+        {
+          id: "data-structures",
+          name: "تركيب البيانات",
+          englishName: "Data Structures",
+          url: "https://chat.whatsapp.com/FAEJ4U5ussq6YPs9hlOPn8?mode=gi_t",
+          category: "core",
+        },
+
+        {
+          id: "database-systems",
+          name: "أنظمة قواعد البيانات",
+          englishName: "Database Systems",
+          url: "https://chat.whatsapp.com/HWFyFPNJGnH4Q5xWQmEJj4?mode=gi_t",
+          category: "core",
+        },
+
+        {
+          id: "team-project-1",
+          name: "مشروع ضمن فريق ١",
+          englishName: "Team Project 1",
+          url: "https://chat.whatsapp.com/DkTm8GVlqNx9wn8LMJBjZE?mode=gi_t",
+          category: "core",
+        },
+
+        {
+          id: "computer-networks",
+          name: "شبكات الحاسوب",
+          englishName: "Computer Networks",
+          url: "https://chat.whatsapp.com/LsXckW4hqPpGPG6kDzDG5j?s=cl&p=i&mlu=4",
+          category: "core",
+        },
+
+        {
+          id: "ai-fundamentals",
+          name: "أساسيات الذكاء الاصطناعي",
+          englishName: "Artificial Intelligence Fundamentals",
+          url: "https://chat.whatsapp.com/CgK3XcaU4cdLD8difFcInb?mode=gi_t",
+          category: "core",
+        },
+
+        {
+          id: "software-engineering-communication",
+          name: "هندسة البرمجيات والتواصل",
+          englishName: "Software Engineering and Communication",
+          url: "https://chat.whatsapp.com/Gw6jgjPxv9C21roDzxKXmZ?mode=gi_t",
+          category: "core",
+        },
+
+        {
+          id: "algorithm-analysis",
+          name: "تحليل وتصميم الخوارزميات",
+          englishName: "Analysis and Design of Algorithms",
+          url: "https://chat.whatsapp.com/IKLL7wUU9N86HZexRM1QfH?s=cl&p=i&mlu=4",
+          category: "core",
+        },
+
+        {
+          id: "operating-systems-1",
+          name: "نظام التشغيل 1",
+          englishName: "Operating Systems 1",
+          url: "https://chat.whatsapp.com/Hle61PsDuxh61NUYBJgHhc?s=cl&p=i&mlu=4",
+          category: "core",
+        },
+
+        // =================================================
+        // AI TRACK
+        // مسار الذكاء الاصطناعي
+        // =================================================
+
+        {
+          id: "machine-learning",
+          name: "التعلم الآلي",
+          englishName: "Machine Learning",
+          url: "https://chat.whatsapp.com/LHoa2CdgFhC3QqmNBo9ahy?s=cl&p=i&mlu=4",
+          category: "track",
+          track: "ai",
+        },
+
+        {
+          id: "information-retrieval",
+          name: "استرجاع المعلومات",
+          englishName: "Information Retrieval",
+          url: "https://chat.whatsapp.com/HB1xiz3E34X1iafuBWu27d?s=cl&p=i&mlu=4",
+          category: "track",
+          track: "ai",
+        },
+
+        {
+          id: "digital-image-processing",
+          name: "معالجة الصور الرقمية",
+          englishName: "Digital Image Processing",
+          url: "https://chat.whatsapp.com/GWMyblApMb46JCFDAKk419?s=cl&p=i&mlu=4",
+          category: "track",
+          track: "ai",
+        },
+
+        {
+          id: "big-data-engineering",
+          name: "هندسة البيانات الضخمة",
+          englishName: "Big Data Engineering",
+          url: "https://chat.whatsapp.com/FASYZ8Qx7iUIEWoH4Mjoff?s=cl&p=i&mlu=4",
+          category: "track",
+          track: "ai",
+        },
+
+        {
+          id: "spatial-data-analysis",
+          name: "تحليل البيانات المكانية",
+          englishName: "Spatial Data Analysis",
+          url: "https://chat.whatsapp.com/IdqhTZPej1iHDnP2K5SD8I?s=cl&p=i&mlu=4",
+          category: "track",
+          track: "ai",
+        },
+
+        // =================================================
+        // SOFTWARE ENGINEERING TRACK
+        // مسار هندسة البرمجيات
+        // =================================================
+
+        {
+          id: "user-behavior-system-tricks",
+          name: "سلوك المستخدم وحيل النظام",
+          englishName: "User Behavior and System Tricks",
+          url: "https://chat.whatsapp.com/G6jdoO8UDH1KbowGbtm8zi?s=cl&p=i&mlu=4",
+          category: "track",
+          track: "software",
+        },
+
+        {
+          id: "advanced-software-construction",
+          name: "مواضيع متقدمة في بناء البرمجيات",
+          englishName: "Advanced Topics in Software Construction",
+          url: "https://chat.whatsapp.com/E92lNNarYKh6ro87h0eSrF?s=cl&p=i&mlu=4",
+          category: "track",
+          track: "software",
+        },
+
+        {
+          id: "software-project-management",
+          name: "إدارة المشاريع البرمجية",
+          englishName: "Software Project Management",
+          url: "https://chat.whatsapp.com/Ep6fkRpZUGSJtVRhWdye1O?s=cl&p=i&mlu=4",
+          category: "track",
+          track: "software",
+        },
+
+        {
+          id: "business-feasibility-study",
+          name: "دراسة جدوى الأعمال",
+          englishName: "Business Feasibility Study",
+          url: "https://chat.whatsapp.com/DIdp8LzFJI48O6kMj2xohX?s=cl&p=i&mlu=4",
+          category: "track",
+          track: "software",
+        },
+
+        // =================================================
+        // ADDITIONAL COURSES
+        // =================================================
+
+        {
+          id: "data-theory-introduction",
+          name: "مقدمة في نظرية البيانات",
+          englishName: "Introduction to Data Theory",
+          url: "https://chat.whatsapp.com/L2InRZVgOoN2BNNJhJjCjl?s=cl&p=i&mlu=4",
+          category: "additional",
+        },
+
+        {
+          id: "unix-environment-tools",
+          name: "بيئة وأدوات يونيكس",
+          englishName: "Unix Environment and Tools",
+          url: "https://chat.whatsapp.com/CxdcBoGykgW0nZVjZDOdWf?s=cl&p=i&mlu=4",
+          category: "additional",
+        },
+
+        {
+          id: "internet-of-things",
+          name: "إنترنت الأشياء",
+          englishName: "Internet of Things",
+          url: "https://chat.whatsapp.com/EwrgnVhXN7WDdZlVPjJLH3?s=cl&p=i&mlu=4",
+          category: "additional",
+        },
+
+        {
+          id: "cyberspace-security",
+          name: "الأمن في الفضاء الإلكتروني",
+          englishName: "Cyberspace Security",
+          url: "https://chat.whatsapp.com/LcA56nD9vSW2qKf54CRvuH?s=cl&p=i&mlu=4",
+          category: "additional",
+        },
+
+        // =================================================
+        // PRACTICAL TRAINING
+        // =================================================
+
+        {
+          id: "practical-training-1",
+          name: "التدريب العملي ١",
+          englishName: "Practical Training 1",
+          url: "https://chat.whatsapp.com/L9m2fHEBUq84lrnh3STVbw?s=cl&p=i&mlu=4",
+          category: "training",
+        },
+
+        {
+          id: "practical-training-2",
+          name: "التدريب العملي ٢",
+          englishName: "Practical Training 2",
+          url: "https://chat.whatsapp.com/BtStticLbHv2nLZA8xU3ht?s=cl&p=i&mlu=4",
+          category: "training",
+        },
+
+        {
+          id: "practical-training-3",
+          name: "التدريب العملي ٣",
+          englishName: "Practical Training 3",
+          url: "https://chat.whatsapp.com/GYe3wIamn6eDfO9ZmlLimT?s=cl&p=i&mlu=4",
+          category: "training",
+        },
+      ],
+    },
+
+    // =====================================================
+    // COMPUTER SCIENCE
+    // =====================================================
+
+    {
+      id: "computer-science",
+      name: "علم حاسوب",
+      englishName: "Computer Science",
+
+      batchGroup:
+        "https://chat.whatsapp.com/LCAZPpN4frm5djkGPTcUd2?s=cl&p=i&mlu=4",
+
+      courses: [],
+    },
+
+    // =====================================================
+    // MIS
+    // =====================================================
+
+    {
+      id: "mis",
+      name: "أنظمة المعلومات الإدارية",
+      englishName: "Management Information Systems",
+
+      batchGroup:
+        "https://chat.whatsapp.com/EKOXcimryvSHD1OcLm4zpp?s=cl&p=i&mlu=4",
+
+      courses: [],
+    },
+
+    // =====================================================
+    // DATA SCIENCE & AI
+    // =====================================================
+
+    {
+      id: "data-science-ai",
+      name: "علم البيانات والذكاء الاصطناعي",
+      englishName: "Data Science & Artificial Intelligence",
+
+      batchGroup:
+        "https://chat.whatsapp.com/Er7rF9fvW4E5FLZQ3smW5F?s=cl&p=i&mlu=4",
+
+      courses: [],
+    },
+
+    // =====================================================
+    // CYBER SECURITY
+    // =====================================================
+
+    {
+      id: "cyber-security",
+      name: "الأمن السيبراني",
+      englishName: "Cyber Security",
+
+      batchGroup:
+        "https://chat.whatsapp.com/Kk7kB4YCz5EKx7nwEQN8c7?s=cl&p=i&mlu=4",
+
+      courses: [],
+    },
+  ],
+};
+
+export default itData;

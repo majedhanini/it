@@ -1,0 +1,622 @@
+.home-page {
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+  position: relative;
+  overflow: hidden;
+
+  padding: 90px 0 88px;
+
+  border-bottom: 1px solid var(--border);
+
+  background:
+    radial-gradient(
+      circle at 50% -10%,
+      rgba(231, 178, 61, 0.12),
+      transparent 39%
+    ),
+    radial-gradient(
+      circle at 5% 40%,
+      rgba(155, 123, 62, 0.045),
+      transparent 25%
+    ),
+    var(--bg);
+}
+
+.hero::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  width: 900px;
+  height: 1px;
+
+  transform: translateX(-50%);
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(231, 178, 61, 0.38),
+    transparent
+  );
+
+  pointer-events: none;
+}
+
+.hero-container {
+  position: relative;
+  z-index: 1;
+
+  max-width: 980px;
+
+  text-align: center;
+}
+
+/* =========================================================
+   SHABIBA
+========================================================= */
+
+.hero-shabiba {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 11px;
+
+  margin-bottom: 27px;
+
+  padding: 8px 12px 8px 8px;
+
+  border: 1px solid rgba(231, 178, 61, 0.16);
+  border-radius: 14px;
+
+  background: rgba(255, 255, 255, 0.022);
+}
+
+.hero-shabiba-logo-wrap {
+  display: grid;
+  place-items: center;
+
+  width: 55px;
+  height: 55px;
+
+  flex-shrink: 0;
+
+  overflow: hidden;
+
+  border-radius: 10px;
+
+  background: #ffffff;
+}
+
+.hero-shabiba-logo {
+  width: 100%;
+  height: 100%;
+
+  padding: 3px;
+
+  object-fit: contain;
+}
+
+.hero-shabiba-text {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 2px;
+}
+
+.hero-shabiba-text strong {
+  color: var(--text);
+
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.hero-shabiba-text span {
+  color: var(--accent);
+
+  font-family: "Inter", sans-serif;
+  font-size: 7px;
+  font-weight: 800;
+
+  letter-spacing: 1.2px;
+}
+
+/* =========================================================
+   HERO TEXT
+========================================================= */
+
+.hero-kicker {
+  display: block;
+
+  margin-bottom: 18px;
+
+  color: var(--accent);
+
+  font-family: "Inter", sans-serif;
+  font-size: 9px;
+  font-weight: 800;
+
+  letter-spacing: 2.4px;
+}
+
+.hero h1 {
+  max-width: 940px;
+
+  margin: 0 auto;
+
+  color: var(--text);
+
+  font-size: clamp(42px, 6vw, 72px);
+  font-weight: 800;
+
+  line-height: 1.18;
+}
+
+.hero h1 span {
+  color: var(--accent);
+}
+
+.hero-description {
+  max-width: 700px;
+
+  margin: 23px auto 0;
+
+  color: var(--text-secondary);
+
+  font-size: 15px;
+  line-height: 1.95;
+}
+
+/* =========================================================
+   HERO NOTE
+========================================================= */
+
+.hero-note {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 8px;
+
+  margin-top: 18px;
+
+  padding: 7px 11px;
+
+  border: 1px solid rgba(231, 178, 61, 0.11);
+  border-radius: 8px;
+
+  background: rgba(231, 178, 61, 0.035);
+}
+
+.hero-note-dot {
+  width: 6px;
+  height: 6px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  background: var(--accent);
+}
+
+.hero-note p {
+  color: var(--muted);
+
+  font-size: 11px;
+}
+
+/* =========================================================
+   HERO BUTTONS
+========================================================= */
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  margin-top: 30px;
+}
+
+.hero-actions button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 15px;
+
+  min-height: 51px;
+
+  padding: 0 20px;
+
+  border-radius: 10px;
+
+  font-size: 13px;
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.18s ease,
+    background 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.hero-primary-button {
+  border: 1px solid var(--accent);
+
+  background: var(--accent);
+  color: #15120c;
+}
+
+.hero-primary-button:hover {
+  transform: translateY(-2px);
+
+  background: var(--accent-hover);
+}
+
+.hero-secondary-button {
+  border: 1px solid rgba(231, 178, 61, 0.16);
+
+  background: var(--card);
+  color: var(--text);
+}
+
+.hero-secondary-button:hover {
+  transform: translateY(-2px);
+
+  border-color: rgba(231, 178, 61, 0.3);
+
+  background: var(--card-hover);
+}
+
+/* =========================================================
+   FACULTY GROUPS
+========================================================= */
+
+.faculty-home-section {
+  padding: 70px 0 90px;
+
+  scroll-margin-top: 90px;
+}
+
+.faculty-home-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 35px;
+
+  margin-bottom: 28px;
+}
+
+.faculty-home-heading > div > span {
+  color: var(--accent);
+
+  font-family: "Inter", sans-serif;
+  font-size: 9px;
+  font-weight: 800;
+
+  letter-spacing: 2px;
+}
+
+.faculty-home-heading h2 {
+  margin-top: 6px;
+
+  font-size: 31px;
+  font-weight: 800;
+}
+
+.faculty-home-heading > p {
+  max-width: 470px;
+
+  color: var(--text-secondary);
+
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.faculty-home-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 13px;
+}
+
+/* =========================================================
+   FACULTY CARD
+========================================================= */
+
+.faculty-home-card {
+  display: grid;
+
+  grid-template-columns:
+    52px
+    1fr
+    auto;
+
+  align-items: center;
+
+  gap: 15px;
+
+  min-height: 130px;
+
+  padding: 20px;
+
+  border: 1px solid var(--border);
+  border-radius: 15px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(231, 178, 61, 0.055),
+      transparent 55%
+    ),
+    var(--card);
+
+  transition:
+    transform 0.18s ease,
+    background 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.faculty-home-card:hover {
+  transform: translateY(-2px);
+
+  border-color: rgba(231, 178, 61, 0.25);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(231, 178, 61, 0.085),
+      transparent 55%
+    ),
+    var(--card-hover);
+}
+
+.faculty-card-icon {
+  display: grid;
+  place-items: center;
+
+  width: 52px;
+  height: 52px;
+
+  border: 1px solid rgba(231, 178, 61, 0.15);
+  border-radius: 12px;
+
+  background: var(--accent-soft);
+
+  color: var(--accent);
+
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.faculty-card-content {
+  min-width: 0;
+}
+
+.faculty-card-content > span {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: var(--accent);
+
+  font-family: "Inter", sans-serif;
+  font-size: 8px;
+  font-weight: 800;
+
+  letter-spacing: 1.4px;
+}
+
+/* NOTE */
+
+.faculty-card-note {
+  display: inline-flex;
+  align-items: center;
+
+  width: fit-content;
+
+  margin-bottom: 7px;
+
+  padding: 4px 8px;
+
+  border: 1px solid rgba(231, 178, 61, 0.18);
+  border-radius: 6px;
+
+  background: rgba(231, 178, 61, 0.075);
+
+  color: var(--accent);
+
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.faculty-card-content h3 {
+  color: var(--text);
+
+  font-size: 17px;
+  font-weight: 800;
+
+  line-height: 1.5;
+}
+
+.faculty-card-content p {
+  margin-top: 5px;
+
+  color: var(--text-secondary);
+
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.faculty-card-arrow {
+  display: grid;
+  place-items: center;
+
+  width: 34px;
+  height: 34px;
+
+  flex-shrink: 0;
+
+  border-radius: 8px;
+
+  background: rgba(231, 178, 61, 0.08);
+
+  color: var(--accent);
+
+  font-family: "Inter", sans-serif;
+
+  transition:
+    transform 0.18s ease,
+    background 0.18s ease;
+}
+
+.faculty-home-card:hover .faculty-card-arrow {
+  transform: translateY(-1px);
+
+  background: rgba(231, 178, 61, 0.13);
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 850px) {
+  .faculty-home-heading {
+    align-items: flex-start;
+    flex-direction: column;
+
+    gap: 10px;
+  }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+  .hero {
+    padding: 58px 0 58px;
+  }
+
+  .hero-shabiba {
+    margin-bottom: 22px;
+  }
+
+  .hero-shabiba-logo-wrap {
+    width: 48px;
+    height: 48px;
+  }
+
+  .hero-shabiba-text strong {
+    font-size: 11px;
+  }
+
+  .hero-shabiba-text span {
+    font-size: 6px;
+  }
+
+  .hero-kicker {
+    font-size: 7px;
+
+    letter-spacing: 1.7px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+
+    line-height: 1.28;
+  }
+
+  .hero-description {
+    font-size: 13px;
+  }
+
+  .hero-note {
+    width: 100%;
+
+    justify-content: center;
+
+    padding: 8px 10px;
+  }
+
+  .hero-note p {
+    font-size: 10px;
+
+    line-height: 1.6;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .hero-actions button {
+    width: 100%;
+  }
+
+  .faculty-home-section {
+    padding: 52px 0 65px;
+
+    scroll-margin-top: 75px;
+  }
+
+  .faculty-home-heading {
+    margin-bottom: 22px;
+  }
+
+  .faculty-home-heading h2 {
+    font-size: 27px;
+  }
+
+  .faculty-home-heading > p {
+    font-size: 12px;
+  }
+
+  .faculty-home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .faculty-home-card {
+    grid-template-columns:
+      48px
+      1fr
+      auto;
+
+    min-height: 115px;
+
+    padding: 16px;
+  }
+
+  .faculty-card-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .faculty-card-content h3 {
+    font-size: 15px;
+  }
+
+  .faculty-card-content p {
+    font-size: 10px;
+  }
+
+  .faculty-card-note {
+    font-size: 8px;
+
+    padding: 3px 7px;
+  }
+}

@@ -1,0 +1,306 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  width: 100%;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+
+  background: rgba(17, 17, 15, 0.96);
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.header-container {
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns:
+    1fr
+    auto
+    1fr;
+
+  align-items: center;
+
+  min-height: 74px;
+
+  gap: 20px;
+}
+
+/* =========================================================
+   BRAND
+========================================================= */
+
+.header-brand {
+  display: inline-flex;
+  align-items: center;
+
+  justify-self: start;
+
+  gap: 11px;
+
+  width: fit-content;
+
+  padding: 0;
+
+  border: 0;
+
+  background: transparent;
+  color: inherit;
+
+  text-align: right;
+
+  cursor: pointer;
+}
+
+.header-logo-wrap {
+  display: grid;
+  place-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  flex-shrink: 0;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(231, 178, 61, 0.18);
+  border-radius: 11px;
+
+  background: #ffffff;
+}
+
+.header-logo {
+  width: 100%;
+  height: 100%;
+
+  padding: 3px;
+
+  object-fit: contain;
+}
+
+.header-brand-text {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2px;
+}
+
+.header-brand-text span {
+  color: var(--accent);
+
+  font-family: "Inter", sans-serif;
+  font-size: 7px;
+  font-weight: 800;
+
+  letter-spacing: 1.3px;
+}
+
+.header-brand-text strong {
+  color: var(--text);
+
+  font-size: 14px;
+  font-weight: 800;
+
+  white-space: nowrap;
+}
+
+/* =========================================================
+   NAV CENTER
+========================================================= */
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  justify-self: center;
+
+  gap: 6px;
+
+  padding: 4px;
+
+  border: 1px solid rgba(255, 255, 255, 0.055);
+  border-radius: 11px;
+
+  background: rgba(255, 255, 255, 0.018);
+}
+
+.header-nav button {
+  position: relative;
+
+  min-width: 95px;
+
+  padding: 9px 14px;
+
+  border: 0;
+  border-radius: 8px;
+
+  background: transparent;
+  color: var(--text-secondary);
+
+  font-size: 12px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    color 0.18s ease,
+    background 0.18s ease,
+    transform 0.18s ease;
+}
+
+.header-nav button:hover {
+  color: var(--text);
+
+  background: rgba(231, 178, 61, 0.07);
+
+  transform: translateY(-1px);
+}
+
+/* نخلي العمود الثالث يوازن الهيدر */
+.header-container::after {
+  content: "";
+
+  display: block;
+
+  justify-self: end;
+
+  width: 1px;
+  height: 1px;
+}
+
+/* =========================================================
+   IPAD / TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+  .header-container {
+    grid-template-columns:
+      auto
+      1fr;
+
+    min-height: 70px;
+
+    gap: 16px;
+  }
+
+  .header-brand {
+    justify-self: start;
+  }
+
+  .header-nav {
+    justify-self: end;
+  }
+
+  .header-container::after {
+    display: none;
+  }
+
+  .header-nav button {
+    min-width: auto;
+
+    padding: 8px 11px;
+
+    font-size: 11px;
+  }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 620px) {
+  .site-header {
+    position: sticky;
+    top: 0;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    gap: 9px;
+
+    min-height: auto;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .header-brand {
+    justify-content: center;
+
+    justify-self: auto;
+  }
+
+  .header-logo-wrap {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header-brand-text {
+    align-items: flex-start;
+  }
+
+  .header-brand-text span {
+    font-size: 6px;
+
+    letter-spacing: 1px;
+  }
+
+  .header-brand-text strong {
+    font-size: 13px;
+  }
+
+  .header-nav {
+    width: 100%;
+
+    justify-self: auto;
+
+    display: grid;
+
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 5px;
+
+    padding: 4px;
+  }
+
+  .header-nav button {
+    width: 100%;
+
+    min-width: 0;
+
+    padding: 8px 10px;
+
+    font-size: 11px;
+  }
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+  .header-brand-text strong {
+    font-size: 12px;
+  }
+
+  .header-logo-wrap {
+    width: 37px;
+    height: 37px;
+  }
+
+  .header-nav button {
+    font-size: 10px;
+
+    padding: 8px 6px;
+  }
+}
