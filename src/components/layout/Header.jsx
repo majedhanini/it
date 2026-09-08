@@ -12,6 +12,17 @@ function Header({ navigate }) {
     }, 80);
   };
 
+  const goToUniversityRequired = () => {
+    navigate("/");
+
+    setTimeout(() => {
+      document.querySelector("#university-required")?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }, 80);
+  };
+
   return (
     <header className="site-header" dir="rtl">
       <div className="container header-container">
@@ -41,6 +52,10 @@ function Header({ navigate }) {
 
           <button type="button" onClick={goToFacultyGroups}>
             جروبات الكلية
+          </button>
+
+          <button type="button" onClick={goToUniversityRequired}>
+            إجباري الجامعة
           </button>
         </nav>
       </div>

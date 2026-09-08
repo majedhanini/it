@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 import Home from "./pages/Home";
 import BatchGroups from "./pages/BatchGroups";
 import CourseGroups from "./pages/CourseGroups";
 import MajorCourses from "./pages/MajorCourses";
+import UniversityRequired from "./pages/UniversityRequired";
 
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
@@ -64,8 +66,8 @@ function App() {
     page = <BatchGroups navigate={navigate} />;
   } else if (cleanPath === "/course-groups") {
     page = <CourseGroups navigate={navigate} />;
-  } else if (cleanPath === "/course-groups/shared") {
-    page = <MajorCourses navigate={navigate} majorId="shared" />;
+  } else if (cleanPath === "/university-required") {
+    page = <UniversityRequired navigate={navigate} />;
   } else if (pathParts.length === 2 && pathParts[0] === "course-groups") {
     page = <MajorCourses navigate={navigate} majorId={pathParts[1]} />;
   } else {
@@ -106,6 +108,8 @@ function App() {
       {page}
 
       <Footer />
+
+      <Analytics />
     </>
   );
 }

@@ -646,3 +646,275 @@
     font-size: 12px;
   }
 }
+/* =========================================================
+   GROUPS UPDATE NOTE
+========================================================= */
+
+.groups-update-note {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  max-width: 630px;
+
+  margin: 20px auto 0;
+
+  padding: 11px 13px;
+
+  border: 1px solid rgba(231, 178, 61, 0.13);
+  border-radius: 10px;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(231, 178, 61, 0.045),
+      rgba(231, 178, 61, 0.012)
+    );
+
+  text-align: right;
+}
+
+.groups-update-note-icon {
+  display: grid;
+  place-items: center;
+
+  width: 32px;
+  height: 32px;
+
+  flex-shrink: 0;
+
+  border: 1px solid rgba(231, 178, 61, 0.15);
+  border-radius: 8px;
+
+  background: rgba(231, 178, 61, 0.07);
+
+  color: var(--accent);
+
+  font-family: "Inter", sans-serif;
+
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.groups-update-note-content strong {
+  display: block;
+
+  margin-bottom: 2px;
+
+  color: var(--text);
+
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.groups-update-note-content p {
+  color: var(--text-secondary);
+
+  font-size: 8.5px;
+
+  line-height: 1.6;
+}
+
+/* =========================================================
+   UNIVERSITY REQUIRED ENTRY
+========================================================= */
+
+.university-entry-section {
+  padding: 48px 0;
+
+  border-bottom: 1px solid var(--border);
+
+  scroll-margin-top: 95px;
+
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(231, 178, 61, 0.04),
+      transparent 38%
+    ),
+    var(--bg);
+}
+
+.university-entry-card {
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  width: 100%;
+
+  min-height: 130px;
+
+  padding: 22px;
+
+  border: 1px solid rgba(231, 178, 61, 0.14);
+  border-radius: 15px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(231, 178, 61, 0.06),
+      transparent 62%
+    ),
+    var(--card);
+
+  color: inherit;
+
+  text-align: right;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    background 0.18s ease;
+}
+
+.university-entry-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  right: 0;
+
+  width: 3px;
+  height: 100%;
+
+  background: var(--accent);
+}
+
+.university-entry-card:hover {
+  transform: translateY(-2px);
+
+  border-color: rgba(231, 178, 61, 0.27);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(231, 178, 61, 0.09),
+      transparent 62%
+    ),
+    var(--card-hover);
+}
+
+.university-entry-content {
+  min-width: 0;
+}
+
+.university-entry-content > span {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: var(--accent);
+
+  font-family: "Inter", sans-serif;
+
+  font-size: 7px;
+  font-weight: 800;
+
+  letter-spacing: 1.5px;
+}
+
+.university-entry-content h2 {
+  color: var(--text);
+
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.university-entry-content p {
+  margin-top: 5px;
+
+  color: var(--text-secondary);
+
+  font-size: 10px;
+
+  line-height: 1.65;
+}
+
+.university-entry-arrow {
+  display: grid;
+  place-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  flex-shrink: 0;
+
+  border-radius: 9px;
+
+  background: rgba(231, 178, 61, 0.08);
+
+  color: var(--accent);
+
+  font-size: 15px;
+}
+
+/* MOBILE */
+
+@media (max-width: 620px) {
+  .groups-update-note {
+    align-items: flex-start;
+
+    margin-top: 16px;
+
+    padding: 9px 10px;
+  }
+
+  .groups-update-note-icon {
+    width: 28px;
+    height: 28px;
+
+    font-size: 9px;
+  }
+
+  .groups-update-note-content strong {
+    font-size: 9px;
+  }
+
+  .groups-update-note-content p {
+    font-size: 7.5px;
+  }
+
+  .university-entry-section {
+    padding: 34px 0;
+
+    scroll-margin-top: 105px;
+  }
+
+  .university-entry-card {
+    min-height: 105px;
+
+    gap: 10px;
+
+    padding: 15px;
+
+    border-radius: 12px;
+  }
+
+  .university-entry-content > span {
+    font-size: 5.5px;
+  }
+
+  .university-entry-content h2 {
+    font-size: 18px;
+  }
+
+  .university-entry-content p {
+    font-size: 8px;
+  }
+
+  .university-entry-arrow {
+    width: 34px;
+    height: 34px;
+
+    font-size: 12px;
+  }
+}

@@ -21,6 +21,19 @@ function Home({ navigate }) {
             لجميع الدفعات والتخصصات.
           </p>
 
+          <div className="groups-update-note">
+            <div className="groups-update-note-icon">!</div>
+
+            <div className="groups-update-note-content">
+              <strong>تنويه بخصوص جروبات المساقات</strong>
+
+              <p>
+                يتم تحديث وتجديد روابط جروبات المساقات مع بداية كل فصل دراسي،
+                لضمان وصول الطلبة إلى الجروبات المحدثة والفعّالة.
+              </p>
+            </div>
+          </div>
+
           <div className="hero-actions">
             <button
               type="button"
@@ -40,6 +53,27 @@ function Home({ navigate }) {
               <span>←</span>
             </button>
           </div>
+        </div>
+      </section>
+
+      {/* UNIVERSITY REQUIRED */}
+      <section className="university-entry-section" id="university-required">
+        <div className="container">
+          <button
+            type="button"
+            className="university-entry-card"
+            onClick={() => navigate("/university-required")}
+          >
+            <div className="university-entry-content">
+              <span>UNIVERSITY REQUIRED COURSES</span>
+
+              <h2>إجباري جامعة</h2>
+
+              <p>ادخل للوصول إلى جروبات مساقات إجباري الجامعة.</p>
+            </div>
+
+            <div className="university-entry-arrow">←</div>
+          </button>
         </div>
       </section>
 
