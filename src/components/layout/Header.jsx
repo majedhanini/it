@@ -23,6 +23,10 @@ function Header({ navigate }) {
     }, 80);
   };
 
+  const goToCourseGroups = () => {
+    navigate("/course-groups");
+  };
+
   return (
     <header className="site-header" dir="rtl">
       <div className="container header-container">
@@ -54,8 +58,12 @@ function Header({ navigate }) {
             جروبات الكلية
           </button>
 
+          <button type="button" onClick={goToCourseGroups}>
+            جروبات المساقات
+          </button>
+
           <button type="button" onClick={goToUniversityRequired}>
-            إجباري الجامعة
+            جروبات إجباري الجامعة
           </button>
         </nav>
       </div>
