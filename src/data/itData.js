@@ -69,6 +69,9 @@ const itData = {
   ],
 
   majors: [
+    // =====================================================
+    // CAP
+    // =====================================================
     {
       id: "cap",
       name: "علم حاسوب في سوق العمل (CAP)",
@@ -78,9 +81,6 @@ const itData = {
         "https://chat.whatsapp.com/DrZpOeh3bp63Ht3mZqnqRe?s=cl&p=i&mlu=4",
 
       courses: [
-        // =========================
-        // MATHEMATICS & FOUNDATIONS
-        // =========================
         {
           id: "calculus-1",
           name: "تفاضل وتكامل 1",
@@ -116,10 +116,6 @@ const itData = {
           url: "https://chat.whatsapp.com/FeuxKBmIixtEANFLOQkKR6?mode=gi_t",
           category: "core",
         },
-
-        // =========================
-        // PROGRAMMING & COMPUTER CORE
-        // =========================
         {
           id: "programming-1",
           name: "مبادئ برمجة ١",
@@ -183,10 +179,6 @@ const itData = {
           url: "https://chat.whatsapp.com/LsXckW4hqPpGPG6kDzDG5j?s=cl&p=i&mlu=4",
           category: "core",
         },
-
-        // =========================
-        // SOFTWARE & COMMUNICATION
-        // =========================
         {
           id: "software-engineering-communication",
           name: "هندسة البرمجيات والتواصل",
@@ -208,10 +200,6 @@ const itData = {
           url: "https://chat.whatsapp.com/DkTm8GVlqNx9wn8LMJBjZE?mode=gi_t",
           category: "core",
         },
-
-        // =========================
-        // AI CORE / TRACK
-        // =========================
         {
           id: "ai-fundamentals",
           name: "أساسيات الذكاء الاصطناعي",
@@ -259,10 +247,6 @@ const itData = {
           category: "track",
           track: "ai",
         },
-
-        // =========================
-        // SOFTWARE TRACK
-        // =========================
         {
           id: "user-behavior-system-tricks",
           name: "سلوك المستخدم وحيل النظام",
@@ -295,10 +279,6 @@ const itData = {
           category: "track",
           track: "software",
         },
-
-        // =========================
-        // ADDITIONAL
-        // =========================
         {
           id: "data-theory-introduction",
           name: "مقدمة في نظرية البيانات",
@@ -334,10 +314,6 @@ const itData = {
           url: "https://chat.whatsapp.com/HZHBNMNVC3l3JnsA1KxX9b?s=cl&p=i&mlu=4&ilr=4",
           category: "additional",
         },
-
-        // =========================
-        // TRAINING
-        // =========================
         {
           id: "practical-training-1",
           name: "التدريب العملي ١",
@@ -362,6 +338,9 @@ const itData = {
       ],
     },
 
+    // =====================================================
+    // COMPUTER SCIENCE
+    // =====================================================
     {
       id: "computer-science",
       name: "علم حاسوب",
@@ -371,21 +350,18 @@ const itData = {
       courses: [],
     },
 
+    // =====================================================
+    // MIS
+    // =====================================================
     {
       id: "mis",
       name: "أنظمة المعلومات الإدارية",
       englishName: "Management Information Systems",
+
       batchGroup:
         "https://chat.whatsapp.com/EKOXcimryvSHD1OcLm4zpp?s=cl&p=i&mlu=4",
 
       courses: [
-        {
-          id: "it-security",
-          name: "الأمن في تكنولوجيا المعلومات",
-          englishName: "Information Technology Security",
-          url: "https://chat.whatsapp.com/GoK84PjllRgAWD0NT0bmeI?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
         {
           id: "introduction-to-it",
           name: "مقدمة في تكنولوجيا المعلومات",
@@ -408,6 +384,20 @@ const itData = {
           category: "core",
         },
         {
+          id: "computer-programming-business-1",
+          name: "برمجة الحاسوب للأعمال (1)",
+          englishName: "Computer Programming for Business 1",
+          url: "https://chat.whatsapp.com/Jr6OQ1xveQF3Y9a2Y0XY2K?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "computer-programming-business-2",
+          name: "برمجة الحاسوب للأعمال (2)",
+          englishName: "Computer Programming for Business 2",
+          url: "https://chat.whatsapp.com/CKELQ8YeT5OBk1uxOnHto8?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
           id: "web-programming-1",
           name: "تقنيات برمجة الشبكة العنكبوتية (1)",
           englishName: "Web Programming Technologies 1",
@@ -422,73 +412,10 @@ const itData = {
           category: "core",
         },
         {
-          id: "decision-analysis",
-          name: "تحليل القرارات",
-          englishName: "Decision Analysis",
-          url: "https://chat.whatsapp.com/GN4aX5iLcnSKcE2kkJQWyM?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
-        {
-          id: "business-communication-technical-reports",
-          name: "الاتصالات التجارية وكتابة التقارير الفنية",
-          englishName: "Business Communication & Technical Report Writing",
-          url: "https://chat.whatsapp.com/Ir7OcOATsBq5TTay5rLihT?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
-        {
-          id: "organizational-development-change-management",
-          name: "التطوير المؤسسي وإدارة التغيير",
-          englishName: "Organizational Development & Change Management",
-          url: "https://chat.whatsapp.com/FevRAFTDpXODbMtr1Hb8tz?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
-        {
           id: "database-management-applications",
           name: "إدارة قواعد البيانات وتطبيقاتها",
           englishName: "Database Management & Applications",
           url: "https://chat.whatsapp.com/DVpCMT4yqrv5xpwf7l1pJk?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
-        {
-          id: "strategic-management-digital-organizations",
-          name: "الإدارة الاستراتيجية في المنظمات الرقمية",
-          englishName: "Strategic Management in Digital Organizations",
-          url: "https://chat.whatsapp.com/CuOMh5bnZr6KareTIdSRtB?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
-        {
-          id: "e-commerce",
-          name: "التجارة الإلكترونية",
-          englishName: "E-Commerce",
-          url: "https://chat.whatsapp.com/KKEI39qFqdw3LPRO98otSZ?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
-        {
-          id: "hci-interface-design",
-          name: "التفاعل بين الإنسان والحاسوب وتصميم واجهات التطبيق",
-          englishName: "Human-Computer Interaction & Interface Design",
-          url: "https://chat.whatsapp.com/LXTunTQy54u7ovpd3zaXN7?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
-        {
-          id: "project-management",
-          name: "إدارة المشاريع",
-          englishName: "Project Management",
-          url: "https://chat.whatsapp.com/GGokiQD016h3r4AL1naYuL?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
-        {
-          id: "e-marketing",
-          name: "التسويق الإلكتروني",
-          englishName: "E-Marketing",
-          url: "https://chat.whatsapp.com/CulkwL3NuZfDGyHeFVSmAB?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
-        {
-          id: "business-analysis",
-          name: "تحليل الأعمال",
-          englishName: "Business Analysis",
-          url: "https://chat.whatsapp.com/EYzR3QLMNQm1cir5hFUYVk?s=sw&p=i&mlu=4&ilr=4",
           category: "core",
         },
         {
@@ -499,38 +426,17 @@ const itData = {
           category: "core",
         },
         {
-          id: "cloud-computing",
-          name: "الحوسبة السحابية",
-          englishName: "Cloud Computing",
-          url: "https://chat.whatsapp.com/KzXSJXiAsHt9rObBLaezCT?s=sw&p=i&mlu=4&ilr=4",
+          id: "it-security",
+          name: "الأمن في تكنولوجيا المعلومات",
+          englishName: "Information Technology Security",
+          url: "https://chat.whatsapp.com/GoK84PjllRgAWD0NT0bmeI?s=sw&p=i&mlu=4&ilr=4",
           category: "core",
         },
         {
-          id: "modern-trends-mis",
-          name: "توجهات حديثة في أنظمة إدارة المعلومات",
-          englishName: "Modern Trends in Management Information Systems",
-          url: "https://chat.whatsapp.com/CGqobWsFjJZKyWEWZHrxEN?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
-        {
-          id: "enterprise-applications",
-          name: "تطبيقات المؤسسة",
-          englishName: "Enterprise Applications",
-          url: "https://chat.whatsapp.com/HZayxdB93lGKM0KYnNkiR9?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
-        {
-          id: "data-warehousing-data-applications",
-          name: "مستودعات البيانات والتطبيقات في البيانات",
-          englishName: "Data Warehousing & Data Applications",
-          url: "https://chat.whatsapp.com/KVnKAsq5W3FJ0wuhgLv9Uf?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
-        {
-          id: "ai-applications-business",
-          name: "تطبيقات الذكاء الاصطناعي في الأعمال",
-          englishName: "AI Applications in Business",
-          url: "https://chat.whatsapp.com/F4vBZhGMGGzFKCZC050TMH?s=sw&p=i&mlu=4&ilr=4",
+          id: "decision-analysis",
+          name: "تحليل القرارات",
+          englishName: "Decision Analysis",
+          url: "https://chat.whatsapp.com/GN4aX5iLcnSKcE2kkJQWyM?s=sw&p=i&mlu=4&ilr=4",
           category: "core",
         },
         {
@@ -541,24 +447,108 @@ const itData = {
           category: "core",
         },
         {
+          id: "business-analysis",
+          name: "تحليل الأعمال",
+          englishName: "Business Analysis",
+          url: "https://chat.whatsapp.com/EYzR3QLMNQm1cir5hFUYVk?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "data-warehousing-data-applications",
+          name: "مستودعات البيانات والتطبيقات في البيانات",
+          englishName: "Data Warehousing & Data Applications",
+          url: "https://chat.whatsapp.com/KVnKAsq5W3FJ0wuhgLv9Uf?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "enterprise-applications",
+          name: "تطبيقات المؤسسة",
+          englishName: "Enterprise Applications",
+          url: "https://chat.whatsapp.com/HZayxdB93lGKM0KYnNkiR9?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "cloud-computing",
+          name: "الحوسبة السحابية",
+          englishName: "Cloud Computing",
+          url: "https://chat.whatsapp.com/KzXSJXiAsHt9rObBLaezCT?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "hci-interface-design",
+          name: "التفاعل بين الإنسان والحاسوب وتصميم واجهات التطبيق",
+          englishName: "Human-Computer Interaction & Interface Design",
+          url: "https://chat.whatsapp.com/LXTunTQy54u7ovpd3zaXN7?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "e-commerce",
+          name: "التجارة الإلكترونية",
+          englishName: "E-Commerce",
+          url: "https://chat.whatsapp.com/KKEI39qFqdw3LPRO98otSZ?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "e-marketing",
+          name: "التسويق الإلكتروني",
+          englishName: "E-Marketing",
+          url: "https://chat.whatsapp.com/CulkwL3NuZfDGyHeFVSmAB?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "ai-applications-business",
+          name: "تطبيقات الذكاء الاصطناعي في الأعمال",
+          englishName: "AI Applications in Business",
+          url: "https://chat.whatsapp.com/F4vBZhGMGGzFKCZC050TMH?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "business-communication-technical-reports",
+          name: "الاتصالات التجارية وكتابة التقارير الفنية",
+          englishName: "Business Communication & Technical Report Writing",
+          url: "https://chat.whatsapp.com/Ir7OcOATsBq5TTay5rLihT?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "operations-management",
+          name: "إدارة العمليات",
+          englishName: "Operations Management",
+          url: "https://chat.whatsapp.com/FrW97fxSF5H5TsRsi2U2Ep?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "project-management",
+          name: "إدارة المشاريع",
+          englishName: "Project Management",
+          url: "https://chat.whatsapp.com/GGokiQD016h3r4AL1naYuL?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "organizational-development-change-management",
+          name: "التطوير المؤسسي وإدارة التغيير",
+          englishName: "Organizational Development & Change Management",
+          url: "https://chat.whatsapp.com/FevRAFTDpXODbMtr1Hb8tz?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "strategic-management-digital-organizations",
+          name: "الإدارة الاستراتيجية في المنظمات الرقمية",
+          englishName: "Strategic Management in Digital Organizations",
+          url: "https://chat.whatsapp.com/CuOMh5bnZr6KareTIdSRtB?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "modern-trends-mis",
+          name: "توجهات حديثة في أنظمة إدارة المعلومات",
+          englishName: "Modern Trends in Management Information Systems",
+          url: "https://chat.whatsapp.com/CGqobWsFjJZKyWEWZHrxEN?s=sw&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
           id: "research-methodology",
           name: "مبادئ البحث العلمي",
           englishName: "Research Methodology",
           url: "https://chat.whatsapp.com/CbRfrAZlIJZJ7oS5A6tkwM?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
-        {
-          id: "computer-programming-business-1",
-          name: "برمجة الحاسوب للأعمال (1)",
-          englishName: "Computer Programming for Business 1",
-          url: "https://chat.whatsapp.com/Jr6OQ1xveQF3Y9a2Y0XY2K?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
-        {
-          id: "computer-programming-business-2",
-          name: "برمجة الحاسوب للأعمال (2)",
-          englishName: "Computer Programming for Business 2",
-          url: "https://chat.whatsapp.com/CKELQ8YeT5OBk1uxOnHto8?s=sw&p=i&mlu=4&ilr=4",
           category: "core",
         },
         {
@@ -575,36 +565,26 @@ const itData = {
           url: "https://chat.whatsapp.com/CSCdsoP8uD5ENytSqAbfry?s=sw&p=i&mlu=4&ilr=4",
           category: "training",
         },
-        {
-          id: "operations-management",
-          name: "إدارة العمليات",
-          englishName: "Operations Management",
-          url: "https://chat.whatsapp.com/FrW97fxSF5H5TsRsi2U2Ep?s=sw&p=i&mlu=4&ilr=4",
-          category: "core",
-        },
       ],
     },
 
+    // =====================================================
+    // DATA SCIENCE & AI
+    // =====================================================
     {
       id: "data-science-ai",
       name: "علم البيانات والذكاء الاصطناعي",
       englishName: "Data Science & Artificial Intelligence",
+
       batchGroup:
         "https://chat.whatsapp.com/Er7rF9fvW4E5FLZQ3smW5F?s=cl&p=i&mlu=4",
 
       courses: [
         {
-          id: "programming-1",
-          name: "مبادئ برمجة ١",
-          englishName: "Programming Principles 1",
-          url: "https://chat.whatsapp.com/JsYGvtt1if6AVC4hR4Y2LB?mode=gi_t",
-          category: "core",
-        },
-        {
-          id: "general-physics-it",
-          name: "فيزياء عامة لطلبة تكنولوجيا المعلومات",
-          englishName: "General Physics for IT Students",
-          url: "https://chat.whatsapp.com/FeuxKBmIixtEANFLOQkKR6?mode=gi_t",
+          id: "calculus-1",
+          name: "تفاضل وتكامل 1",
+          englishName: "Calculus 1",
+          url: "https://chat.whatsapp.com/Llgi1T5HQLJFdct0PSCtUw",
           category: "core",
         },
         {
@@ -615,22 +595,189 @@ const itData = {
           category: "core",
         },
         {
-          id: "calculus-1",
-          name: "تفاضل وتكامل 1",
-          englishName: "Calculus 1",
-          url: "https://chat.whatsapp.com/Llgi1T5HQLJFdct0PSCtUw",
+          id: "general-physics-it",
+          name: "فيزياء عامة لطلبة تكنولوجيا المعلومات",
+          englishName: "General Physics for IT Students",
+          url: "https://chat.whatsapp.com/FeuxKBmIixtEANFLOQkKR6?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "programming-1",
+          name: "مبادئ برمجة ١",
+          englishName: "Programming Principles 1",
+          url: "https://chat.whatsapp.com/JsYGvtt1if6AVC4hR4Y2LB?mode=gi_t",
           category: "core",
         },
       ],
     },
 
+    // =====================================================
+    // CYBER SECURITY
+    // =====================================================
     {
       id: "cyber-security",
       name: "الأمن السيبراني",
       englishName: "Cyber Security",
+
       batchGroup:
         "https://chat.whatsapp.com/Kk7kB4YCz5EKx7nwEQN8c7?s=cl&p=i&mlu=4",
-      courses: [],
+
+      courses: [
+        {
+          id: "programming-1",
+          name: "مبادئ برمجة ١",
+          englishName: "Programming Principles 1",
+          url: "https://chat.whatsapp.com/JsYGvtt1if6AVC4hR4Y2LB?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "programming-2",
+          name: "مبادئ برمجة ٢",
+          englishName: "Programming Principles 2",
+          url: "https://chat.whatsapp.com/GDh3uqXRUrSFCFeuP7Thik?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "data-structures-algorithms",
+          name: "تركيب البيانات والخوارزميات",
+          englishName: "Data Structures & Algorithms",
+          url: "https://chat.whatsapp.com/FMbZYXC7tbK81Yo3rLMFql?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "general-physics-it",
+          name: "فيزياء عامة لطلبة تكنولوجيا المعلومات",
+          englishName: "General Physics for IT Students",
+          url: "https://chat.whatsapp.com/FeuxKBmIixtEANFLOQkKR6?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "mathematics-for-it",
+          name: "رياضيات لتكنولوجيا المعلومات",
+          englishName: "Mathematics for Information Technology",
+          url: "https://chat.whatsapp.com/IPQW0QvCSvnLy6KYFEVXse?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "probability-queueing-theory",
+          name: "احتمال ونظريات قائمة الانتظار",
+          englishName: "Probability & Queueing Theory",
+          url: "https://chat.whatsapp.com/HeFKKXyddib3g7hZElXdHu?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "database-systems",
+          name: "أنظمة قواعد البيانات",
+          englishName: "Database Systems",
+          url: "https://chat.whatsapp.com/HWFyFPNJGnH4Q5xWQmEJj4?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "computer-networks-cyber",
+          name: "شبكات الحاسوب (سايبر)",
+          englishName: "Computer Networks",
+          url: "https://chat.whatsapp.com/BveRxEPCjMT1mHva3z0D9o?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "routing-switching-devices",
+          name: "أجهزة التوجيه والتبديل",
+          englishName: "Routing & Switching Devices",
+          url: "https://chat.whatsapp.com/FoWGaj4z8igEZUNAPeUIjY?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "network-programming",
+          name: "برمجة الشبكات",
+          englishName: "Network Programming",
+          url: "https://chat.whatsapp.com/LQ6qPRFl5BJ7MKqOJCByeg?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "network-systems-administration",
+          name: "إدارة أنظمة الشبكات",
+          englishName: "Network Systems Administration",
+          url: "https://chat.whatsapp.com/IPyePlfst0245KeFfwFQRQ?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "network-management",
+          name: "إدارة الشبكات",
+          englishName: "Network Management",
+          url: "https://chat.whatsapp.com/JRVsNwXFuENGRCbO9FjjIF?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "network-design-simulation",
+          name: "تصميم ومحاكاة الشبكات",
+          englishName: "Network Design & Simulation",
+          url: "https://chat.whatsapp.com/LDyX4LuyoOS28GmlYVWBlo?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "wireless-communication-security",
+          name: "نظم الاتصالات اللاسلكية وأمنها",
+          englishName: "Wireless Communication Systems & Security",
+          url: "https://chat.whatsapp.com/GwA6uy5wFDPL1qPX8NeIuj?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "information-security-ethics",
+          name: "أمن المعلومات وأخلاقياتها",
+          englishName: "Information Security & Ethics",
+          url: "https://chat.whatsapp.com/CNedaszShS1IHyaxKEjc7y?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "web-services-security",
+          name: "أمن خدمات الويب",
+          englishName: "Web Services Security",
+          url: "https://chat.whatsapp.com/IGBZGVvB4hk0fPNuZlWzzF?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "cryptography-network-security",
+          name: "التشفير وأمن الشبكات",
+          englishName: "Cryptography & Network Security",
+          url: "https://chat.whatsapp.com/IQrpfxg8UM00rAcAtKcJBk?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "security-policies-procedures",
+          name: "السياسات والإجراءات الأمنية",
+          englishName: "Security Policies & Procedures",
+          url: "https://chat.whatsapp.com/HrLOx10hLu5ADw6wogkZjh?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "networks-lab",
+          name: "مختبر الشبكات",
+          englishName: "Networks Lab",
+          url: "https://chat.whatsapp.com/CG2cBg2DyV3CMM297zOuKA?mode=gi_t",
+          category: "lab",
+        },
+        {
+          id: "network-management-lab",
+          name: "مختبر إدارة الشبكات",
+          englishName: "Network Management Lab",
+          url: "https://chat.whatsapp.com/Jm4obXVhfdeLjnatPbnteU?mode=gi_t",
+          category: "lab",
+        },
+        {
+          id: "network-design-simulation-lab",
+          name: "مختبر تصميم ومحاكاة الشبكات",
+          englishName: "Network Design & Simulation Lab",
+          url: "https://chat.whatsapp.com/GUO5wkfV3Uo0KCxblQcJFi?mode=gi_t",
+          category: "lab",
+        },
+        {
+          id: "practical-training-cyber",
+          name: "التدريب العملي",
+          englishName: "Practical Training",
+          url: "https://chat.whatsapp.com/KU2VqTiqhey6LoKpeLZ61v?mode=gi_t",
+          category: "training",
+        },
+      ],
     },
   ],
 };
