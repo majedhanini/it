@@ -166,7 +166,6 @@ const itData = {
           category: "core",
         },
 
-        // AI TRACK
         {
           id: "machine-learning",
           name: "التعلم الآلي",
@@ -208,7 +207,6 @@ const itData = {
           track: "ai",
         },
 
-        // SOFTWARE TRACK
         {
           id: "user-behavior-system-tricks",
           name: "سلوك المستخدم وحيل النظام",
@@ -334,7 +332,6 @@ const itData = {
           category: "additional",
         },
 
-        // التدريب
         {
           id: "practical-training-1",
           name: "التدريب العملي ١",
@@ -594,7 +591,7 @@ const itData = {
         },
 
         // =========================
-        // مواد علمية وأخرى
+        // مواد أخرى
         // =========================
         {
           id: "general-physics-1",
@@ -693,8 +690,22 @@ const itData = {
         },
 
         // =========================
-        // مواد التخصص
+        // مواد التخصص والإدارة
         // =========================
+        {
+          id: "introduction-to-mis",
+          name: "مقدمة في نظم المعلومات الإدارية",
+          englishName: "Introduction to Management Information Systems",
+          url: "https://chat.whatsapp.com/BXe71fFtDlJJCt2fWSLR8A?s=cl&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
+        {
+          id: "management-principles-1",
+          name: "مبادئ إدارة (١)",
+          englishName: "Principles of Management 1",
+          url: "https://chat.whatsapp.com/CUQuHeBHiPl2GaGSaHabSF?s=cl&p=i&mlu=4&ilr=4",
+          category: "core",
+        },
         {
           id: "introduction-to-it",
           name: "مقدمة في تكنولوجيا المعلومات",
@@ -893,7 +904,6 @@ const itData = {
         "https://chat.whatsapp.com/Er7rF9fvW4E5FLZQ3smW5F?s=cl&p=i&mlu=4",
 
       courses: [
-        // البرمجة
         {
           id: "programming-1",
           name: "مبادئ برمجة ١",
@@ -901,8 +911,6 @@ const itData = {
           url: "https://chat.whatsapp.com/JsYGvtt1if6AVC4hR4Y2LB?mode=gi_t",
           category: "core",
         },
-
-        // الرياضيات
         {
           id: "discrete-mathematics",
           name: "الرياضيات المنفصلة",
@@ -917,8 +925,6 @@ const itData = {
           url: "https://chat.whatsapp.com/Llgi1T5HQLJFdct0PSCtUw",
           category: "core",
         },
-
-        // مواد أخرى
         {
           id: "general-physics-it",
           name: "فيزياء عامة لطلبة تكنولوجيا المعلومات",
@@ -1083,7 +1089,6 @@ const itData = {
           category: "core",
         },
 
-        // المختبرات
         {
           id: "networks-lab",
           name: "مختبر الشبكات",
@@ -1106,7 +1111,6 @@ const itData = {
           category: "lab",
         },
 
-        // التدريب
         {
           id: "practical-training-cyber",
           name: "التدريب العملي",
