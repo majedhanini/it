@@ -589,6 +589,13 @@ const itData = {
           url: "https://chat.whatsapp.com/Jb63Utp4MFq5I0zQqghkLr?s=hd&p=i&mlu=4&ilr=4",
           category: "core",
         },
+        {
+          id: "engineering-statistics-probability",
+          name: "إحصاء واحتمالات للمهندسين",
+          englishName: "Statistics & Probability for Engineers",
+          url: "https://chat.whatsapp.com/BLUVXFKuWmz8d95mjUNxWn",
+          category: "core",
+        },
 
         // =========================
         // مواد أخرى
@@ -987,6 +994,20 @@ const itData = {
           name: "أنظمة قواعد البيانات",
           englishName: "Database Systems",
           url: "https://chat.whatsapp.com/HWFyFPNJGnH4Q5xWQmEJj4?mode=gi_t",
+          category: "core",
+        },
+        {
+          id: "operating-systems-1",
+          name: "نظام التشغيل 1",
+          englishName: "Operating Systems 1",
+          url: "https://chat.whatsapp.com/Hle61PsDuxh61NUYBJgHhc?s=cl&p=i&mlu=4",
+          category: "core",
+        },
+        {
+          id: "computer-logic-design",
+          name: "تصميم منطق الحاسوب",
+          englishName: "Computer Logic Design",
+          url: "https://chat.whatsapp.com/HcKuWU7GOBiL3xGDYNYfwV?s=hd&p=i&mlu=4&ilr=4",
           category: "core",
         },
         {
